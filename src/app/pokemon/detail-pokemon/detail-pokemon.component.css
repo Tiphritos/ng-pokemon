@@ -1,3 +1,9 @@
 .imagePokemonDetail{
    width: 312px;
 }
+@media screen and (min-width: 200px) and (max-width: 640px) {
+   .imagePokemonDetail {
+     display:none;
+   
+   }
+ }

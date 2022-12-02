@@ -5,13 +5,13 @@
     type="number"
    >
 -->
-<h1 class="center titre">Pokemons</h1>
+
 <div class="container">
     <div class="row">
 
         <app-search-pokemon></app-search-pokemon>
      
-        <div *ngFor="let pokemon of pokemonList" class="col m4 s6">
+        <div *ngFor="let pokemon of pokemonList" class="col m4 s12">
             
             <div (click)="goToPokemon(pokemon)" class="card horizontal  " pkmnBorderCard  >
                 <div class="">
@@ -34,7 +34,7 @@
     </div>
  </div>  
  <div>
-<a class="btn-floating btn-large waves-effect waves light red z-depth-3"
+<a class="btn-floating btn-large waves-effect waves light  z-depth-3 bouton"
 style="position:fixed; bottom:25px; right:25px;" routerLink="/pokemon/add"> ➕</a>
 
  </div>

@@ -1,1 +1,12 @@
+body{
+    background-color: red;
+}
+nav{
+    color: #fff;
+     background-color:red;
+    width: 100%;
+    height: 56px;
 
+    
+    border-bottom: solid 1px black;
+}
